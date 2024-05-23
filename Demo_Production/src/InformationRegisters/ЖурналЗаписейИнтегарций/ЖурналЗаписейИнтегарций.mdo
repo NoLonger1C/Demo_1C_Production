@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48012f0b-ab08-463d-99c4-a2b1d0d2cbb1">
+  <producedTypes>
+    <selectionType typeId="147aa1ad-c3cb-4bc4-a912-5116d3f2c0a5" valueTypeId="1219b71e-cdff-453b-ad31-44a6136d1828"/>
+    <listType typeId="d1d235b3-080a-40fd-ba7a-effe7df0a019" valueTypeId="52f5583e-5619-4629-a784-7667dbd286b9"/>
+    <managerType typeId="6d883a40-f431-4f27-9b5d-cde30da6af3c" valueTypeId="ddd6b10b-b818-48d3-90c1-40cc71230f11"/>
+    <recordSetType typeId="a3f4b907-370d-430f-a715-780d537d98cb" valueTypeId="b9bad8db-7b57-4ebf-988e-3b9032f7f8d2"/>
+    <recordKeyType typeId="1d7a9908-e500-4f92-bd81-29f72a0d9d56" valueTypeId="9db672d3-d2b0-4577-b343-ec77157d916e"/>
+    <recordType typeId="ce34a989-58a6-41a7-a810-934b6bd517f1" valueTypeId="d268f734-e6db-4dca-a811-e1cfe894a85b"/>
+    <recordManagerType typeId="e91e9ef0-3507-42ae-aba1-239e4cc3b99a" valueTypeId="e4e80b1b-acde-4045-887a-4509f72754c9"/>
+  </producedTypes>
+  <name>ЖурналЗаписейИнтегарций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал записей интегарций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a7607a02-b8ef-4c97-a099-0e16552c5a35">
+    <name>ИмяСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7e6e550-fbcb-411a-aad8-696659613ed6">
+    <name>ВидСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сервиса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСервисовИнтеграций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eef05fb7-9359-43ba-affa-e9405591bc9b">
+    <name>ВходящийЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий запрос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bcb9d19b-57a5-4426-b508-a80cd1668fd6">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="17f101f1-e04d-4662-8e89-17bba2817e2b">
+    <name>ИдентиифкаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентиифкатор записи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

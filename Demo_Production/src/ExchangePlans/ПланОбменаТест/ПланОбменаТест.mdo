@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bff1bf5-4371-4911-a5dd-93e791e7b5ca" thisNode="8dc68012-019f-4ff8-88c1-531256a257cc">
+  <producedTypes>
+    <objectType typeId="6c8086cb-05ff-4ad8-afb4-62abf7736fe1" valueTypeId="e88af7d8-bb1b-4fe0-b4da-dd8ff07fc0c7"/>
+    <refType typeId="19c39dce-9586-4b35-8a68-f778e0f57a05" valueTypeId="a0f353bc-b673-43c6-9712-a8fd90d277a9"/>
+    <selectionType typeId="edff5ef7-b74b-4775-bea1-3a398770c676" valueTypeId="90d3d4c2-3f62-4c69-91c4-1fcd823bc76f"/>
+    <listType typeId="286cc4b6-ea9e-4fb3-b1b9-94e57003cf78" valueTypeId="64f07079-487b-4ccb-8a6a-74bd3c9fa96a"/>
+    <managerType typeId="c9656aed-b54c-4cea-9cfc-64401d24a0aa" valueTypeId="d41e73c1-350e-4fbf-8663-7def55bd0610"/>
+  </producedTypes>
+  <name>ПланОбменаТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>План обмена тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ПланОбменаТест.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ПланОбменаТест.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <distributedInfoBase>true</distributedInfoBase>
+</mdclass:ExchangePlan>
