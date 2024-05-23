@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e0ed53a-08dc-4528-b153-c9b2a566f5c7">
+  <producedTypes>
+    <objectType typeId="8e76254d-00f3-422b-bb34-b685b7d1f579" valueTypeId="b1a97f60-12da-4d30-a52d-2d4ded7cd57e"/>
+    <refType typeId="85adc4e7-6216-4115-9c86-d47a41164085" valueTypeId="8d3f9bb2-00f8-47b1-9836-c55805f55bef"/>
+    <selectionType typeId="135e7633-dcf1-4e58-b38a-99952fda473d" valueTypeId="7e2304c6-32ce-4010-92f9-dd17f8785905"/>
+    <listType typeId="335a1086-c4f8-43e1-895b-1a31a492d3d5" valueTypeId="ab979bea-42c3-440e-8218-2cfc0bbc08fa"/>
+    <managerType typeId="b5b09816-faf6-4b1c-9ba2-da1cfbeb9759" valueTypeId="f8efd1ce-47b2-4f29-ab1c-bbc8c78d19cf"/>
+    <displacingCalculationTypesType typeId="24943461-ba73-48f4-bb44-9a36e82c228a" valueTypeId="1e93dc09-7721-490e-bdd8-eea13fab989f"/>
+    <displacingCalculationTypesRowType typeId="1895c1a4-2edb-4cd4-ba87-81ad687957c1" valueTypeId="08483aa3-06a3-4fdb-87fa-0294368c6ef8"/>
+    <baseCalculationTypesType typeId="66d05866-a8db-4ddc-8e63-9f9b9737b63b" valueTypeId="903f46f2-2242-461a-95ed-b7bf23b6080d"/>
+    <baseCalculationTypesRowType typeId="1f1aad08-9d55-471f-b366-51952601a2aa" valueTypeId="8611e91d-1a03-4381-99be-90893c949f2c"/>
+    <leadingCalculationTypesType typeId="99cfae96-37de-44d0-901e-d188c018d4ee" valueTypeId="01018b9e-306e-42cc-82d4-0abb62a4b844"/>
+    <leadingCalculationTypesRowType typeId="affd2c23-d0a1-4dfc-9532-352a84b2813c" valueTypeId="0289d1b4-71b5-4e62-84cf-130135312a5a"/>
+  </producedTypes>
+  <name>Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.Удержания.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.Удержания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <predefined>
+    <items id="40224e6c-9c8f-48b3-92db-b639c3e50fd8">
+      <name>КомпенсацияСпорта</name>
+      <description>Компенсация спорта</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

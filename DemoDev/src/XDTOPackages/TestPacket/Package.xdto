@@ -1,0 +1,17 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://localhost/testpacket">
+	<objectType name="ObjectTest">
+		<property name="Code" type="xs:integer"/>
+		<property name="Name" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://localhost/testpacket" name="ObjectTestExtended" base="d2p1:ObjectTest">
+		<property name="ExtendedProperties" type="d2p1:AdditionalProperty" upperBound="-1"/>
+	</objectType>
+	<objectType name="AdditionalProperty">
+		<property name="Property" type="xs:string"/>
+		<property name="Type" type="xs:string"/>
+	</objectType>
+	<objectType name="Answer">
+		<property name="Sucesfull" type="xs:boolean"/>
+		<property name="Errors" type="xs:string" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>
