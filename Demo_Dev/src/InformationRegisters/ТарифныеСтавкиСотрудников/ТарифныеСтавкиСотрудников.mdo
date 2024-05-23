@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97300fc2-0fe7-436c-a7c7-b7b51ae58a07">
+  <producedTypes>
+    <selectionType typeId="52486de7-ea3d-4c7c-a187-a7b889727131" valueTypeId="a287deb8-d833-45aa-9496-d6273f5cf7bd"/>
+    <listType typeId="76744df1-fe86-49bc-b000-794e49384586" valueTypeId="de4f49af-a508-4132-bb76-ef8b4fa49367"/>
+    <managerType typeId="84c5ad9d-ac3c-48b1-a1bd-35bf515e26f6" valueTypeId="a4e80ad9-b27e-426b-aae4-655ffa6912b7"/>
+    <recordSetType typeId="25ee5759-9131-4092-ae19-e9506c2bbff9" valueTypeId="eff69c65-988f-4a19-9cb4-c9f19ead01b4"/>
+    <recordKeyType typeId="ef1e66e9-a51e-4b16-ac7b-61b1d3660b95" valueTypeId="f1234dc3-1287-4c21-8936-961fb4ebe2ce"/>
+    <recordType typeId="ba8dc392-cf85-4623-ad5f-7d9fb9ed7a90" valueTypeId="5910afe4-e86d-4389-97a4-e55ae189e3ba"/>
+    <recordManagerType typeId="2322b393-74d6-459f-a21e-fbbbfbb3770e" valueTypeId="7c69ee0f-251e-40ce-96c6-f66776ae55a9"/>
+  </producedTypes>
+  <name>ТарифныеСтавкиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифные ставки сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="31206e11-df0e-4a01-905a-cba3330f594c">
+    <name>ФОТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФОТ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7102e21c-1b2c-4cad-857e-e03e539df19f">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b784a41-f7f2-4571-9347-4bd1cf3bd14b">
+    <name>Сотрудинк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудинк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

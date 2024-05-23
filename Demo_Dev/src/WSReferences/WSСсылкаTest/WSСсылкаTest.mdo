@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b66e9f57-ff14-4b5a-9dc6-f783f9090c10">
+  <producedTypes>
+    <managerType typeId="3bb620e7-8b70-41ee-bdc3-4d35352a1212" valueTypeId="980a4789-f4e3-413a-9f1a-d3e33299e688"/>
+  </producedTypes>
+  <name>WSСсылкаTest</name>
+  <synonym>
+    <key>ru</key>
+    <value>WSСсылка test</value>
+  </synonym>
+  <locationURL>http://localhost/Demo/ws/ws2.1cws?wsdl</locationURL>
+</mdclass:WSReference>
