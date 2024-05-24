@@ -333,15 +333,15 @@
   <constants>Constant.ПортPOP3</constants>
   <constants>Constant.ПортSMTP</constants>
   <constants>Constant.РаботаСТорговымОборудованием</constants>
+  <constants>Constant.РазмерКомпенсацииСпорта</constants>
   <constants>Constant.СертификатМобильногоПриложенияIOS</constants>
+  <constants>Constant.СтавкаБольничного</constants>
   <constants>Constant.ТаймаутИнтернетПочты</constants>
   <constants>Constant.ТолькоБесплатные</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияIMAP</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияPOP3</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияSMTP</constants>
   <constants>Constant.УчетПоСкладам</constants>
-  <constants>Constant.РазмерКомпенсацииСпорта</constants>
-  <constants>Constant.СтавкаБольничного</constants>
   <commonForms>CommonForm.Звонок</commonForms>
   <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
   <commonForms>CommonForm.НастройкаБота</commonForms>
@@ -356,6 +356,7 @@
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.ВходящиеПисьма</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
   <catalogs>Catalog.ИсходящиеПисьма</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -368,19 +369,18 @@
   <catalogs>Catalog.РасчетныеСчетаКонтрагентов</catalogs>
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.ХранимыеФайлы</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <documents>Document.Заказ</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.ПоступлениеДенег</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
-  <documents>Document.НачислениеЗарплаты</documents>
   <documentJournals>DocumentJournal.ДокументыПродаж</documentJournals>
   <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
   <enums>Enum.PushУведомления</enums>
@@ -406,6 +406,7 @@
   <dataProcessors>DataProcessor.ДемонстрацияВозможностейДиаграмм</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаВыгрузкаФайлов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафиков</dataProcessors>
   <dataProcessors>DataProcessor.ЗапросHTTP</dataProcessors>
   <dataProcessors>DataProcessor.ЗапросWeb</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователя</dataProcessors>
@@ -419,16 +420,15 @@
   <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеГрафиков</dataProcessors>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЖурналЗаписейИнтегарций</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеВходящихПисем</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеИсходящихПисем</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифныеСтавкиСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
-  <informationRegisters>InformationRegister.ТарифныеСтавкиСотрудников</informationRegisters>
-  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
@@ -437,11 +437,11 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
-  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
   <integrationServices>IntegrationService.СервисИнтеграции1</integrationServices>
   <bots>Bot.ОфисМенеджер</bots>
 </mdclass:Configuration>
