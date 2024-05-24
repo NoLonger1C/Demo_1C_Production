@@ -340,6 +340,8 @@
   <constants>Constant.ТолькоЗащищеннаяАутентификацияPOP3</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияSMTP</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.РазмерКомпенсацииСпорта</constants>
+  <constants>Constant.СтавкаБольничного</constants>
   <commonForms>CommonForm.Звонок</commonForms>
   <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
   <commonForms>CommonForm.НастройкаБота</commonForms>
@@ -369,12 +371,16 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.ХранимыеФайлы</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.ПоступлениеДенег</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documentJournals>DocumentJournal.ДокументыПродаж</documentJournals>
   <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
   <enums>Enum.PushУведомления</enums>
@@ -395,6 +401,7 @@
   <reports>Report.ОстаткиТоваровНаСкладахМобильный</reports>
   <reports>Report.ОтчетПоВзаиморасчетам</reports>
   <reports>Report.ПрайсЛист</reports>
+  <reports>Report.РасчетЗарплаты</reports>
   <dataProcessors>DataProcessor.АдминистративныйСервис</dataProcessors>
   <dataProcessors>DataProcessor.ДемонстрацияВозможностейДиаграмм</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
@@ -412,6 +419,7 @@
   <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафиков</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналЗаписейИнтегарций</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
@@ -419,6 +427,8 @@
   <informationRegisters>InformationRegister.СостояниеИсходящихПисем</informationRegisters>
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифныеСтавкиСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
@@ -427,6 +437,11 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
   <integrationServices>IntegrationService.СервисИнтеграции1</integrationServices>
   <bots>Bot.ОфисМенеджер</bots>
 </mdclass:Configuration>

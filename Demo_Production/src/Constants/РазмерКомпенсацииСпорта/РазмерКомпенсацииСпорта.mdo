@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92b8958b-1353-491b-9079-d2cafcb928d7">
+  <producedTypes>
+    <managerType typeId="c6aae95a-e5e3-4b0e-96e9-ffa516255719" valueTypeId="8662993d-6ca3-424a-aa29-6cf2b4a8be12"/>
+    <valueManagerType typeId="845a6088-84be-48fa-ac73-ed02e76f2113" valueTypeId="d0e31e56-ff89-4cfc-8d5a-d6b53cf8bb6e"/>
+    <valueKeyType typeId="06b38daa-b41d-404c-b1d6-0da56b61a248" valueTypeId="be46be6a-b0ca-47c0-a4ae-ffcb4933181f"/>
+  </producedTypes>
+  <name>РазмерКомпенсацииСпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер компенсации спорта</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
